@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* styles for 'equals' button */
+/*
+.equals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    height: 70px;
+}
+*/
+
+.calculator > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    background-color: rgb(212, 170, 218);
+    color: rgb(93, 52, 141);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+
+.calculator {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 70px 70px 70px;
+    padding: 10px;
+}
+
