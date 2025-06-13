@@ -71,40 +71,56 @@ body {
 
 .type-screen {
     width: 400px;
-    height: 120px;
+    height: 110px;
     text-align: right;
     font-family: 'Borel', cursive;
-    font-size: 50px;
+    font-size: 65px;
     color: #835aa7;
     border: none;
     padding-right: 24px;
-    padding-top: 24px;
+    padding-top: 50px;
+    cursor: pointer;
 }
 
 .button-row {
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+    align-content: center;
     width: 400px;
     height: 95px;
-    padding: 20px;
+    padding: 4px;
     background-color: #d7c2eb;
     margin: 15px;
     border-radius: 17px;
     border-right: solid 2px #835aa7;
     border-bottom: solid 2px #835aa7;
-    transition: all 0.2s ease-in-out;
+    /*transition: all 0.2s ease-in-out;*/
 }
 
 .button {
+    display: flex;
+    background-color: #d7c2eb;
+    justify-items: center;
+    align-items: center;
     font-family: 'Borel', cursive;
     font-weight: 400;
-    font-size: 45px;
-    padding: 23px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    
+    font-size: 42px;
+    border-radius: 10px;
+    border: none;
+    width: max-content;
+    cursor: pointer;
+    padding: 26px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    transition: background-color 0.4s;
+    transition: all 0.4s ease;
+}
+
+.button:hover {
+    transform: scale(0.8);
+    background-color: #a58dbb;
 }
 
 .calculator > button {
