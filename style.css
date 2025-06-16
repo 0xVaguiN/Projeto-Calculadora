@@ -3,27 +3,17 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    display: flex;
     background-color: #bdaa96;
-    height: 100vh;
+    height: 100%;
 }
-
-/* styles for 'equals' button */
-/*
-.equals {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 152px;
-    height: 70px;
-}
-*/
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin: auto;
     width: 400px;
 }
